@@ -1,0 +1,62 @@
+/* Your code here */
+.sb{display: flex;
+  height: 40px;
+  background-color: rgb(131, 127, 255);
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway',sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 10px;
+
+}
+.sb__game-over--hidden{
+visibility: hidden;
+}
+.pf{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.wgs{
+  height : 241px ;
+  width : 320px;
+  position : relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs__mole-head{
+  height :250px;
+  right: 78px;
+  left: 10px;
+  width : 250px;
+  position : absolute;
+  transition: 0.15s;
+  z-index: 1;
+
+}
+
+.wgs__dirt-pile{
+  height : 110px ;
+  top: 131px;
+  width : 320px;
+  position : absolute;
+  z-index: 2;
+}
+
+.wgs__mole-head--hidden{
+  margin-top: 241px ;
+}
+
+.sb__game-start{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin-top: 20px;
+}
